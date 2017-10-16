@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422ACCF21F94C6490076B039 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 422ACCF11F94C6490076B039 /* btn.wav */; };
 		42AC87B91F94862D001E7C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC87B81F94862D001E7C03 /* AppDelegate.swift */; };
-		42AC87BB1F94862D001E7C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC87BA1F94862D001E7C03 /* ViewController.swift */; };
+		42AC87BB1F94862D001E7C03 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC87BA1F94862D001E7C03 /* MainVC.swift */; };
 		42AC87BE1F94862D001E7C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AC87BC1F94862D001E7C03 /* Main.storyboard */; };
 		42AC87C01F94862D001E7C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AC87BF1F94862D001E7C03 /* Assets.xcassets */; };
 		42AC87C31F94862D001E7C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AC87C11F94862D001E7C03 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422ACCF11F94C6490076B039 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		42AC87B51F94862D001E7C03 /* Retro Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AC87B81F94862D001E7C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42AC87BA1F94862D001E7C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AC87BA1F94862D001E7C03 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		42AC87BD1F94862D001E7C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42AC87BF1F94862D001E7C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42AC87C21F94862D001E7C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				42AC87B81F94862D001E7C03 /* AppDelegate.swift */,
-				42AC87BA1F94862D001E7C03 /* ViewController.swift */,
+				42AC87BA1F94862D001E7C03 /* MainVC.swift */,
 				42AC87BC1F94862D001E7C03 /* Main.storyboard */,
 				42AC87BF1F94862D001E7C03 /* Assets.xcassets */,
 				42AC87C11F94862D001E7C03 /* LaunchScreen.storyboard */,
 				42AC87C41F94862D001E7C03 /* Info.plist */,
+				422ACCF11F94C6490076B039 /* btn.wav */,
 			);
 			path = "Retro Calculator";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 				42AC87C31F94862D001E7C03 /* LaunchScreen.storyboard in Resources */,
 				42AC87C01F94862D001E7C03 /* Assets.xcassets in Resources */,
 				42AC87BE1F94862D001E7C03 /* Main.storyboard in Resources */,
+				422ACCF21F94C6490076B039 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42AC87BB1F94862D001E7C03 /* ViewController.swift in Sources */,
+				42AC87BB1F94862D001E7C03 /* MainVC.swift in Sources */,
 				42AC87B91F94862D001E7C03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				42AC87C91F94862D001E7C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
